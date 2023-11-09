@@ -49,6 +49,7 @@ def caesar(start_text, shift_amount, cipher_direction):
 
 
   should_end = False
+  
   while not should_end:
 
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
